@@ -8,10 +8,24 @@ module.exports = {
 		path: path.join(__dirname, "dist"),
 		filename: "bundle.js",
 	},
+	module: {
+		rules: [
+			{
+				test: /\.js$/,
+				loader: "babel-loader",
+				include: path.join(__dirname, "src"),
+				exclude: /node_modules/,
+			},
+		],
+	},
 	plugins: [
-    new HtmlWebpackPlugin({
-      template: path.join(__dirname, 'src', 'index.html'),
-      filename: 'index.html'
-    })
-  ],
+		new HtmlWebpackPlugin({
+			template: path.join(__dirname, "src", "index.html"),
+			filename: "index.html",
+		}),
+	],
+	devServer: {
+		port: 8000,
+		static: path.join(__dirname, "dist"),
+	},
 }

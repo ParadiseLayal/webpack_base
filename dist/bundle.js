@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("// ES6 daima\n// ES6模块化\n// 压缩代码\nconsole.log('hello loayal')\n\n//# sourceURL=webpack://webpack_base/./src/index.js?");
+eval("// ES6 daima\n// ES6模块化\n// 压缩代码\nconsole.log('hello loayal！！！！！！')\n\n//# sourceURL=webpack://webpack_base/./src/index.js?");
 
 /***/ })
 
