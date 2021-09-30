@@ -18,4 +18,4 @@ class Animal {
 
 const animal = new Animal('边牧', 8)
 console.log(animal)
-console.log('hello loayal')
+console.log('hello loayal1111')

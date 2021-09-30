@@ -6,9 +6,9 @@
   "description": "webpack基础学习",
   "author": "loyal.pan",
   "scripts": {
-<<<<<<< HEAD
     "dev": "webpack-dev-server",
-    "build": "webpack"
+    "build:dev": "webpack --config ./build/webpack.dev.config.js",
+    "build:prod": "webpack --config ./build/webpack.prod.config.js"
   },
   "dependencies": {
     "@babel/core": "^7.15.5",
@@ -18,13 +18,5 @@
     "webpack": "^5.54.0",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"
-=======
-    "build": "webpack"
-  },
-  "dependencies": {
-    "html-webpack-plugin": "^5.3.2",
-    "webpack": "^5.54.0",
-    "webpack-cli": "^4.8.0"
->>>>>>> 8d56315304bc1b54d84a500aac6c7a959815806a
   }
 }
